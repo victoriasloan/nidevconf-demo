@@ -1,0 +1,1583 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/victoriasloan/Development/nidevconf-demo/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/victoriasloan/Development/nidevconf-demo/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fc20b282feb33ddac45b7d87ad5ea3a1",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2f7dacde7079819b0123bd4191d4e164",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fd08e5d77bee40d068ac504b5081a10f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a3ae09838cda41238bcb592ea9b39533",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b1a1dd575407fa3f912f37f63a07abde",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e487d31c64c638b8ea809e85c2fd26a6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c3f6529d1d64214ce55ead43665e3935",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.36",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "src",
+        "path": "/Users/victoriasloan/Development/nidevconf-demo/src/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.36",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b420923bc127b9e5e62db12141f2d338",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.41",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.41",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2b9fbdb2ec70f9b6e2775c4df2d335ba",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-glamor": {
+      "resolve": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby-plugin-glamor",
+      "id": "Plugin gatsby-plugin-glamor",
+      "name": "gatsby-plugin-glamor",
+      "version": "1.6.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig",
+        "modifyBabelrc"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby-plugin-glamor",
+      "packageJson": {
+        "name": "gatsby-plugin-glamor",
+        "description": "Gatsby plugin to add support for Glamor",
+        "version": "1.6.13",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "glamor"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "glamor",
+            "version": "^2.20.29"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d4a4d2caedbd81a505b8eef5c1f38253",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.18",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/victoriasloan/Development/nidevconf-demo/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c3f1e2079ef1d780ad4db8bbd17201b3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/victoriasloan/Development/nidevconf-demo",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "6e6e4107134c86158b5de7d92877ca01",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/victoriasloan/Development/nidevconf-demo",
+      "packageJson": {
+        "name": "gatsby-starter-hello-world",
+        "description": "Gatsby hello world starter",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.40"
+          },
+          {
+            "name": "gatsby-plugin-glamor",
+            "version": "^1.6.13"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^1.7.18"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.36"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.41"
+          },
+          {
+            "name": "glamorous",
+            "version": "^4.13.0"
+          },
+          {
+            "name": "typography-theme-kirkham",
+            "version": "^0.16.3"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "22507f9c030a16a41545d531e1fe1652",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Panda life"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-06-04T19:42:44.891Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "760d6c8bd67d4a4221da205c904a9295",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/ absPath of file": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/ absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3e0a7b842b66cfddb826fcc8583f436b",
+        "type": "Directory",
+        "description": "Directory \"src\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/",
+      "relativePath": "",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-05-17T21:26:30.727Z",
+      "accessTime": "2018-06-04T19:42:48.239Z",
+      "changeTime": "2018-06-04T19:42:38.654Z",
+      "birthTime": "2018-05-17T20:46:04.453Z",
+      "root": "/",
+      "dir": "/Users/victoriasloan/Development/nidevconf-demo",
+      "base": "src",
+      "ext": "",
+      "name": "src",
+      "relativeDirectory": "..",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2353502,
+      "blocks": 0,
+      "atimeMs": 1528141368239.1855,
+      "mtimeMs": 1526592390726.9285,
+      "ctimeMs": 1528141358654.4355,
+      "birthtimeMs": 1526589964453.1028,
+      "atime": "2018-06-04T19:42:48.239Z",
+      "mtime": "2018-05-17T21:26:30.727Z",
+      "ctime": "2018-06-04T19:42:38.654Z",
+      "birthtime": "2018-05-17T20:46:04.453Z"
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/pages absPath of file": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/pages absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f40e300f83d989d6aa3fb392ad9f9ebf",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/pages",
+      "relativePath": "pages",
+      "extension": "",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2018-05-27T20:02:49.845Z",
+      "accessTime": "2018-06-04T19:42:48.242Z",
+      "changeTime": "2018-06-04T19:42:38.654Z",
+      "birthTime": "2018-05-17T20:46:04.453Z",
+      "root": "/",
+      "dir": "/Users/victoriasloan/Development/nidevconf-demo/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 8,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2384025,
+      "blocks": 0,
+      "atimeMs": 1528141368241.9753,
+      "mtimeMs": 1527451369845.3884,
+      "ctimeMs": 1528141358654.1584,
+      "birthtimeMs": 1526589964453.195,
+      "atime": "2018-06-04T19:42:48.242Z",
+      "mtime": "2018-05-27T20:02:49.845Z",
+      "ctime": "2018-06-04T19:42:38.654Z",
+      "birthtime": "2018-05-17T20:46:04.453Z"
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/layouts absPath of file": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/layouts absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7a5676c14fb7c6fff30b2d236edb59c8",
+        "type": "Directory",
+        "description": "Directory \"src/layouts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/layouts",
+      "relativePath": "layouts",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-05-17T20:48:02.976Z",
+      "accessTime": "2018-06-04T19:42:48.242Z",
+      "changeTime": "2018-06-04T19:42:38.650Z",
+      "birthTime": "2018-05-17T20:47:58.470Z",
+      "root": "/",
+      "dir": "/Users/victoriasloan/Development/nidevconf-demo/src",
+      "base": "layouts",
+      "ext": "",
+      "name": "layouts",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2384021,
+      "blocks": 0,
+      "atimeMs": 1528141368241.9978,
+      "mtimeMs": 1526590082975.974,
+      "ctimeMs": 1528141358649.9658,
+      "birthtimeMs": 1526590078469.7224,
+      "atime": "2018-06-04T19:42:48.242Z",
+      "mtime": "2018-05-17T20:48:02.976Z",
+      "ctime": "2018-06-04T19:42:38.650Z",
+      "birthtime": "2018-05-17T20:47:58.470Z"
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/templates absPath of file": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/templates absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a82abd9bcba13a046ea720bc26891f48",
+        "type": "Directory",
+        "description": "Directory \"src/templates\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/templates",
+      "relativePath": "templates",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-05-17T21:26:40.348Z",
+      "accessTime": "2018-06-04T19:42:48.242Z",
+      "changeTime": "2018-06-04T19:42:38.651Z",
+      "birthTime": "2018-05-17T21:26:30.727Z",
+      "root": "/",
+      "dir": "/Users/victoriasloan/Development/nidevconf-demo/src",
+      "base": "templates",
+      "ext": "",
+      "name": "templates",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2384023,
+      "blocks": 0,
+      "atimeMs": 1528141368242.021,
+      "mtimeMs": 1526592400347.5151,
+      "ctimeMs": 1528141358650.8762,
+      "birthtimeMs": 1526592390726.914,
+      "atime": "2018-06-04T19:42:48.242Z",
+      "mtime": "2018-05-17T21:26:40.348Z",
+      "ctime": "2018-06-04T19:42:38.651Z",
+      "birthtime": "2018-05-17T21:26:30.727Z"
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/utils absPath of file": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/utils absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "417b2048e4167c60e6dbedfb176209fa",
+        "type": "Directory",
+        "description": "Directory \"src/utils\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/utils",
+      "relativePath": "utils",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-05-17T20:48:25.426Z",
+      "accessTime": "2018-06-04T19:42:48.242Z",
+      "changeTime": "2018-06-04T19:42:38.649Z",
+      "birthTime": "2018-05-17T20:48:18.252Z",
+      "root": "/",
+      "dir": "/Users/victoriasloan/Development/nidevconf-demo/src",
+      "base": "utils",
+      "ext": "",
+      "name": "utils",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2384019,
+      "blocks": 0,
+      "atimeMs": 1528141368242.0498,
+      "mtimeMs": 1526590105426.128,
+      "ctimeMs": 1528141358649.2266,
+      "birthtimeMs": 1526590098251.8188,
+      "atime": "2018-06-04T19:42:48.242Z",
+      "mtime": "2018-05-17T20:48:25.426Z",
+      "ctime": "2018-06-04T19:42:38.649Z",
+      "birthtime": "2018-05-17T20:48:18.252Z"
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/pages/index.js absPath of file": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6f241d1841db8768bd9b678189e23c44",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/index.js",
+      "relativePath": "pages/index.js",
+      "extension": "js",
+      "size": 1259,
+      "prettySize": "1.26 kB",
+      "modifiedTime": "2018-05-27T20:01:20.819Z",
+      "accessTime": "2018-06-04T19:35:44.212Z",
+      "changeTime": "2018-06-04T19:42:38.653Z",
+      "birthTime": "2018-05-17T20:46:04.453Z",
+      "root": "/",
+      "dir": "/Users/victoriasloan/Development/nidevconf-demo/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "pages",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2384028,
+      "blocks": 8,
+      "atimeMs": 1528140944211.976,
+      "mtimeMs": 1527451280818.6748,
+      "ctimeMs": 1528141358652.6523,
+      "birthtimeMs": 1526589964453.297,
+      "atime": "2018-06-04T19:35:44.212Z",
+      "mtime": "2018-05-27T20:01:20.819Z",
+      "ctime": "2018-06-04T19:42:38.653Z",
+      "birthtime": "2018-05-17T20:46:04.453Z"
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/pages/about.js absPath of file": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/about.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1921b91df825b06d44aac8d28c176a6e",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/about.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/about.js",
+      "relativePath": "pages/about.js",
+      "extension": "js",
+      "size": 405,
+      "prettySize": "405 B",
+      "modifiedTime": "2018-05-17T20:53:23.278Z",
+      "accessTime": "2018-06-04T19:35:44.212Z",
+      "changeTime": "2018-06-04T19:42:38.652Z",
+      "birthTime": "2018-05-17T20:47:38.762Z",
+      "root": "/",
+      "dir": "/Users/victoriasloan/Development/nidevconf-demo/src/pages",
+      "base": "about.js",
+      "ext": ".js",
+      "name": "about",
+      "relativeDirectory": "pages",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2384026,
+      "blocks": 8,
+      "atimeMs": 1528140944211.9563,
+      "mtimeMs": 1526590403277.8738,
+      "ctimeMs": 1528141358651.5881,
+      "birthtimeMs": 1526590058761.7307,
+      "atime": "2018-06-04T19:35:44.212Z",
+      "mtime": "2018-05-17T20:53:23.278Z",
+      "ctime": "2018-06-04T19:42:38.652Z",
+      "birthtime": "2018-05-17T20:47:38.762Z"
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/pages/my-files.js absPath of file": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/my-files.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "171959828c16f04f11e4b82536a2ed0e",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/my-files.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/my-files.js",
+      "relativePath": "pages/my-files.js",
+      "extension": "js",
+      "size": 1032,
+      "prettySize": "1.03 kB",
+      "modifiedTime": "2018-05-17T21:04:17.680Z",
+      "accessTime": "2018-06-04T19:35:44.212Z",
+      "changeTime": "2018-06-04T19:42:38.654Z",
+      "birthTime": "2018-05-17T21:02:47.638Z",
+      "root": "/",
+      "dir": "/Users/victoriasloan/Development/nidevconf-demo/src/pages",
+      "base": "my-files.js",
+      "ext": ".js",
+      "name": "my-files",
+      "relativeDirectory": "pages",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2384031,
+      "blocks": 8,
+      "atimeMs": 1528140944211.9983,
+      "mtimeMs": 1526591057679.5505,
+      "ctimeMs": 1528141358654.0762,
+      "birthtimeMs": 1526590967637.8196,
+      "atime": "2018-06-04T19:35:44.212Z",
+      "mtime": "2018-05-17T21:04:17.680Z",
+      "ctime": "2018-06-04T19:42:38.654Z",
+      "birthtime": "2018-05-17T21:02:47.638Z"
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-banana.md absPath of file": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-banana.md absPath of file",
+      "children": [
+        "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-banana.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3054933feadb2eef7413c984437696a9",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/panda-eating-banana.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-banana.md",
+      "relativePath": "pages/panda-eating-banana.md",
+      "extension": "md",
+      "size": 289,
+      "prettySize": "289 B",
+      "modifiedTime": "2018-06-04T19:36:03.371Z",
+      "accessTime": "2018-06-04T19:36:23.052Z",
+      "changeTime": "2018-06-04T19:42:38.653Z",
+      "birthTime": "2018-05-27T20:02:49.845Z",
+      "root": "/",
+      "dir": "/Users/victoriasloan/Development/nidevconf-demo/src/pages",
+      "base": "panda-eating-banana.md",
+      "ext": ".md",
+      "name": "panda-eating-banana",
+      "relativeDirectory": "pages",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2384029,
+      "blocks": 8,
+      "atimeMs": 1528140983051.677,
+      "mtimeMs": 1528140963370.947,
+      "ctimeMs": 1528141358653.1118,
+      "birthtimeMs": 1527451369845.3748,
+      "atime": "2018-06-04T19:36:23.052Z",
+      "mtime": "2018-06-04T19:36:03.371Z",
+      "ctime": "2018-06-04T19:42:38.653Z",
+      "birthtime": "2018-05-27T20:02:49.845Z"
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-carrot.md absPath of file": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-carrot.md absPath of file",
+      "children": [
+        "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-carrot.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a1f99b75510a99720ae6ee091ace1435",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/panda-eating-carrot.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-carrot.md",
+      "relativePath": "pages/panda-eating-carrot.md",
+      "extension": "md",
+      "size": 253,
+      "prettySize": "253 B",
+      "modifiedTime": "2018-05-27T20:02:27.840Z",
+      "accessTime": "2018-06-04T19:35:39.664Z",
+      "changeTime": "2018-06-04T19:42:38.652Z",
+      "birthTime": "2018-05-27T20:02:21.998Z",
+      "root": "/",
+      "dir": "/Users/victoriasloan/Development/nidevconf-demo/src/pages",
+      "base": "panda-eating-carrot.md",
+      "ext": ".md",
+      "name": "panda-eating-carrot",
+      "relativeDirectory": "pages",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2384027,
+      "blocks": 8,
+      "atimeMs": 1528140939663.8362,
+      "mtimeMs": 1527451347839.5151,
+      "ctimeMs": 1528141358652.184,
+      "birthtimeMs": 1527451341997.673,
+      "atime": "2018-06-04T19:35:39.664Z",
+      "mtime": "2018-05-27T20:02:27.840Z",
+      "ctime": "2018-06-04T19:42:38.652Z",
+      "birthtime": "2018-05-27T20:02:21.998Z"
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/pages/sliding-pandas.md absPath of file": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/sliding-pandas.md absPath of file",
+      "children": [
+        "/Users/victoriasloan/Development/nidevconf-demo/src/pages/sliding-pandas.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0ac89a9bb5b3f09ee40fc9ac85b13c63",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/sliding-pandas.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/sliding-pandas.md",
+      "relativePath": "pages/sliding-pandas.md",
+      "extension": "md",
+      "size": 264,
+      "prettySize": "264 B",
+      "modifiedTime": "2018-05-17T21:42:40.403Z",
+      "accessTime": "2018-06-04T19:35:39.664Z",
+      "changeTime": "2018-06-04T19:42:38.654Z",
+      "birthTime": "2018-05-17T21:40:57.142Z",
+      "root": "/",
+      "dir": "/Users/victoriasloan/Development/nidevconf-demo/src/pages",
+      "base": "sliding-pandas.md",
+      "ext": ".md",
+      "name": "sliding-pandas",
+      "relativeDirectory": "pages",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2384030,
+      "blocks": 8,
+      "atimeMs": 1528140939663.8936,
+      "mtimeMs": 1526593360403.049,
+      "ctimeMs": 1528141358653.5847,
+      "birthtimeMs": 1526593257142.4507,
+      "atime": "2018-06-04T19:35:39.664Z",
+      "mtime": "2018-05-17T21:42:40.403Z",
+      "ctime": "2018-06-04T19:42:38.654Z",
+      "birthtime": "2018-05-17T21:40:57.142Z"
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/layouts/index.js absPath of file": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/layouts/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9d6bf79ac6fd227d64c78803787475a6",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/layouts/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/layouts/index.js",
+      "relativePath": "layouts/index.js",
+      "extension": "js",
+      "size": 718,
+      "prettySize": "718 B",
+      "modifiedTime": "2018-05-17T21:31:29.245Z",
+      "accessTime": "2018-06-04T19:35:44.212Z",
+      "changeTime": "2018-06-04T19:42:38.650Z",
+      "birthTime": "2018-05-17T20:48:02.976Z",
+      "root": "/",
+      "dir": "/Users/victoriasloan/Development/nidevconf-demo/src/layouts",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "layouts",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2384022,
+      "blocks": 8,
+      "atimeMs": 1528140944211.844,
+      "mtimeMs": 1526592689245.1992,
+      "ctimeMs": 1528141358649.8704,
+      "birthtimeMs": 1526590082975.9597,
+      "atime": "2018-06-04T19:35:44.212Z",
+      "mtime": "2018-05-17T21:31:29.245Z",
+      "ctime": "2018-06-04T19:42:38.650Z",
+      "birthtime": "2018-05-17T20:48:02.976Z"
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/templates/blog-post.js absPath of file": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/templates/blog-post.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1e3711453149470176a756dcd28bb258",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/templates/blog-post.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/templates/blog-post.js",
+      "relativePath": "templates/blog-post.js",
+      "extension": "js",
+      "size": 427,
+      "prettySize": "427 B",
+      "modifiedTime": "2018-05-17T21:28:14.533Z",
+      "accessTime": "2018-06-04T19:36:03.723Z",
+      "changeTime": "2018-06-04T19:42:38.651Z",
+      "birthTime": "2018-05-17T21:26:40.347Z",
+      "root": "/",
+      "dir": "/Users/victoriasloan/Development/nidevconf-demo/src/templates",
+      "base": "blog-post.js",
+      "ext": ".js",
+      "name": "blog-post",
+      "relativeDirectory": "templates",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2384024,
+      "blocks": 8,
+      "atimeMs": 1528140963722.5173,
+      "mtimeMs": 1526592494533.3186,
+      "ctimeMs": 1528141358650.7798,
+      "birthtimeMs": 1526592400347.4995,
+      "atime": "2018-06-04T19:36:03.723Z",
+      "mtime": "2018-05-17T21:28:14.533Z",
+      "ctime": "2018-06-04T19:42:38.651Z",
+      "birthtime": "2018-05-17T21:26:40.347Z"
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/utils/typography.js absPath of file": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/utils/typography.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ddce97e89d4c6e4a01f0403221a1aac3",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/utils/typography.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/utils/typography.js",
+      "relativePath": "utils/typography.js",
+      "extension": "js",
+      "size": 168,
+      "prettySize": "168 B",
+      "modifiedTime": "2018-05-17T20:48:34.262Z",
+      "accessTime": "2018-06-04T19:35:44.212Z",
+      "changeTime": "2018-06-04T19:42:38.649Z",
+      "birthTime": "2018-05-17T20:48:25.426Z",
+      "root": "/",
+      "dir": "/Users/victoriasloan/Development/nidevconf-demo/src/utils",
+      "base": "typography.js",
+      "ext": ".js",
+      "name": "typography",
+      "relativeDirectory": "utils",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2384020,
+      "blocks": 8,
+      "atimeMs": 1528140944212.2673,
+      "mtimeMs": 1526590114261.5442,
+      "ctimeMs": 1528141358649.0806,
+      "birthtimeMs": 1526590105426.1174,
+      "atime": "2018-06-04T19:35:44.212Z",
+      "mtime": "2018-05-17T20:48:34.262Z",
+      "ctime": "2018-06-04T19:42:38.649Z",
+      "birthtime": "2018-05-17T20:48:25.426Z"
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-banana.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-banana.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-banana.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Pandas and Bananas\ndate: \"2017-08-21\"\n---\n\nDo Pandas eat bananas? Check out this short video that shows that yes! pandas do\nseem to really enjoy bananas!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" frameborder=\"0\" allowfullscreen></iframe>\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "d93cd7cf0eeea235deabd964af7770a9",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Pandas and Bananas",
+        "date": "2017-08-21",
+        "_PARENT": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-banana.md absPath of file",
+        "parent": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-banana.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-banana.md",
+      "fields": {
+        "slug": "/panda-eating-banana/"
+      }
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-carrot.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-carrot.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-carrot.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Hungry Panda eating carrot\"\ndate: \"2018-02-10\"\n---\n\nPandas love carrots.\n\nHere's a video of a panda eating a carrot.\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jLwOZ35qxo8\" frameborder=\"0\" allowfullscreen></iframe>\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "4d7be6bd7a7130d9e725819a98bb8be6",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Hungry Panda eating carrot",
+        "date": "2018-02-10",
+        "_PARENT": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-carrot.md absPath of file",
+        "parent": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-carrot.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-carrot.md",
+      "fields": {
+        "slug": "/panda-eating-carrot/"
+      }
+    },
+    "/Users/victoriasloan/Development/nidevconf-demo/src/pages/sliding-pandas.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/sliding-pandas.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/sliding-pandas.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Cute pandas playing on a slide\"\ndate: \"2017-03-13\"\n---\n\nBaby pandas love to play.\n\nHere's a video of pandas playing on a slide.\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6OhGfgjGTYo\" frameborder=\"0\" allowfullscreen></iframe>\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "5a4140511f0231bc44f7438786214aa3",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Cute pandas playing on a slide",
+        "date": "2017-03-13",
+        "_PARENT": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/sliding-pandas.md absPath of file",
+        "parent": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/sliding-pandas.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/sliding-pandas.md",
+      "fields": {
+        "slug": "/sliding-pandas/"
+      }
+    },
+    "SitePage /panda-eating-banana/": {
+      "layout": "index",
+      "jsonName": "panda-eating-banana.json",
+      "internalComponentName": "ComponentPandaEatingBanana",
+      "path": "/panda-eating-banana/",
+      "component": "/Users/victoriasloan/Development/nidevconf-demo/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/panda-eating-banana/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/victoriasloan/Development/nidevconf-demo/src/templates/blog-post.js",
+      "id": "SitePage /panda-eating-banana/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "06d01b8b2e8155a00ac2abbcdf4833b2",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /panda-eating-carrot/": {
+      "layout": "index",
+      "jsonName": "panda-eating-carrot.json",
+      "internalComponentName": "ComponentPandaEatingCarrot",
+      "path": "/panda-eating-carrot/",
+      "component": "/Users/victoriasloan/Development/nidevconf-demo/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/panda-eating-carrot/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/victoriasloan/Development/nidevconf-demo/src/templates/blog-post.js",
+      "id": "SitePage /panda-eating-carrot/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e116725fd4adaedaf978a58a7e8b71bd",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /sliding-pandas/": {
+      "layout": "index",
+      "jsonName": "sliding-pandas.json",
+      "internalComponentName": "ComponentSlidingPandas",
+      "path": "/sliding-pandas/",
+      "component": "/Users/victoriasloan/Development/nidevconf-demo/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/sliding-pandas/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/victoriasloan/Development/nidevconf-demo/src/templates/blog-post.js",
+      "id": "SitePage /sliding-pandas/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1d8c76f4dbc327a22a94c5d66d8d9ad6",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "87684e44ffcc3df831c364c4acea67e7",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "95f8f8f3ab63fae199823b9789d9a7d7",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /my-files/": {
+      "layout": "index",
+      "jsonName": "my-files.json",
+      "internalComponentName": "ComponentMyFiles",
+      "path": "/my-files/",
+      "component": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/my-files.js",
+      "componentChunkName": "component---src-pages-my-files-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/victoriasloan/Development/nidevconf-demo/src/pages/my-files.js",
+      "id": "SitePage /my-files/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "00b9a9411bbec369150e1efd1c4e84a4",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "dc8d4fbaac914c0db56cb9689d8ec656"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "/Users/victoriasloan/Development/nidevconf-demo/src/pages/sliding-pandas.md absPath of file >>> MarkdownRemark": [
+        "/sliding-pandas/"
+      ],
+      "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-carrot.md absPath of file >>> MarkdownRemark": [
+        "/panda-eating-carrot/"
+      ],
+      "/Users/victoriasloan/Development/nidevconf-demo/src/pages/panda-eating-banana.md absPath of file >>> MarkdownRemark": [
+        "/panda-eating-banana/"
+      ],
+      "Site": [
+        "/about/",
+        "LAYOUT___index"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ],
+      "MarkdownRemark": [
+        "/"
+      ],
+      "File": [
+        "/my-files/"
+      ]
+    }
+  }
+}

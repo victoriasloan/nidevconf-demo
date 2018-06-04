@@ -1,0 +1,2 @@
+webpackJsonp([0xf61a78ee2364],{353:function(a,e){a.exports={data:{markdownRemark:{html:'<p>Pandas love carrots.</p>\n<p>Here\'s a video of a panda eating a carrot.</p>\n<iframe width="560" height="315" src="https://www.youtube.com/embed/jLwOZ35qxo8" frameborder="0" allowfullscreen></iframe>',frontmatter:{title:"Hungry Panda eating carrot"}}},pathContext:{slug:"/carrot-eating-panda/"}}}});
+//# sourceMappingURL=path---carrot-eating-panda-31648278e0e7f48f62e6.js.map

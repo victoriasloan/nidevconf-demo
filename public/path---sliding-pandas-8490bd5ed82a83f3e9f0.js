@@ -1,0 +1,2 @@
+webpackJsonp([0xc418ce2076a6],{357:function(a,e){a.exports={data:{markdownRemark:{html:'<p>Baby pandas love to play.</p>\n<p>Here\'s a video of pandas playing on a slide.</p>\n<iframe width="560" height="315" src="https://www.youtube.com/embed/6OhGfgjGTYo" frameborder="0" allowfullscreen></iframe>',frontmatter:{title:"Cute pandas playing on a slide"}}},pathContext:{slug:"/sliding-pandas/"}}}});
+//# sourceMappingURL=path---sliding-pandas-8490bd5ed82a83f3e9f0.js.map
